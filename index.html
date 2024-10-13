@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main_container">
+        <h1 class="f_heading">Registration Form</h1>
+        <p class="p_head">Please fill out this form with the required information</p>
+     <form action="#" class="form">
+        <div class="input_data">
+            <label>Enter your first name:</label>
+            <input type="text" required>
+        </div>
+        <div class="input_data">
+            <label>Enter your last name:</label>
+            <input type="text" required>
+        </div>
+        <div class="input_data">
+            <label>Enter your email:</label>
+            <input type="email" required>
+        </div>
+        <div class="input_data">
+            <label>Create a new password:</label>
+            <input type="password" required>
+        </div>
+        <div class="input_fields">
+            <hr style="width: 100%; margin-top: 25px; margin-bottom: 0; display: flex; justify-content: center; align-items: center;">
+            <label>Account type (required)</label>
+             <span class="radio"><input type="radio" value="personal" name="account type"> Personal</span>
+             <span class="radio"><input type="radio" value="business" name="account type"> Business</span>
+        </div>   
+        <hr style="margin-top: 40px; margin-bottom: 40px; width: 100%;">    
+        <div class="input_data">
+            <label>Upload a profile picture:</label>
+             <input type="file" required>
+        </div>       
+        <div class="input_data">
+            <label>Input your age (years):</label>
+             <input type="date" required>
+        </div>       
+        <div class="input_data">
+            <label class="about_us">How did you hear about us?</label>
+             <select name="" id="">
+                <option value="select (one)" selected>Select (one)</option>
+                <option value="linkdin">Linkdin</option>
+                <option value="instagram">Instagram</option>
+                <option value="twitter">Twitter</option>
+                <option value="facebook">Facebook</option>
+                <option value="goggle add">Goggle Add</option>
+             </select>
+        </div> 
+        <div class="input_data">
+            <label>Provide a bio:</label>
+             <textarea name="" id="" placeholder="i like coding on the beach..."></textarea>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox">
+            <p>I accept the <a href="">terms & conditions</a></p>
+        </div> 
+        <button type="submit">Submit</button>     
+     </form>
+    </div>
+</body>
+</html>
